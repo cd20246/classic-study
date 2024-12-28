@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #4CAF50;
+    --bg-color: #f0f2f5;
+    --bg-color-hover: rgba(0,0,0,0.06);
+    --text-color: #333;
+    --secondary-text: #666;
+    --border-radius: 12px;
+    --card-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.dark:root{
+    --text-color: #fff;
+    --bg-color: rgba(13,17,23,1);
+    --bg-color-hover: rgba(255,255,255,0.06);
+    --secondary-text: rgb(255,255,255,0.5);
+}

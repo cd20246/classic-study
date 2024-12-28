@@ -1,0 +1,95 @@
+/* head */
+header{
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    position: fixed;
+    user-select: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+head>div{
+    height: 40px;
+    display: flex;
+}
+header .item{
+    margin-right: 4px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+header .item:hover{
+    background-color: var(--bg-color-hover);
+}
+header .left{
+    display: flex;
+    align-items: center;
+}
+.left>*{
+    margin-right: 16px;
+}
+.left .logo{
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    cursor: pointer;
+}
+.left .tab{
+    display: flex;
+    align-items: center;
+}
+.left .tab > div{
+    margin-right: 4px;
+}
+.left .logo{
+    /* background-image: url(../svg/bagua.svg); */
+}
+header .right{
+    display: flex;
+    align-items: center;
+
+}
+
+.right .login{
+
+}
+.right .theme{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    /* background-image: url(../svg/themeMode.svg); */
+}
+.theme .icon{
+    fill: rgb(0,0,0,0.2);
+}
+.dark .theme .icon{
+    fill: var(--primary-color);
+}
+
+/* main */
+main{
+    height: 1500px;
+    background-color: var(--bg-color);
+}
+main .wrapper{
+    max-width: 1250px;
+    margin: auto;
+    height: 100%;
+    background-color: coral;
+}
+
+
+
+/* footer */
+footer{
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color: var(--secondary-text);
+}
+
+
